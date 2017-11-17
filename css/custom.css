@@ -44,7 +44,7 @@ header {
   list-style: none;
 }
 .nav li{
-  border-right: 2px solid #2b2b2b26;
+
   display: inline;
   padding-right: 20px;
   padding-left: 15px;
@@ -52,14 +52,24 @@ header {
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px #00000033;
 }
+.nav li:not(:last-of-type){
+  border-right: 2px solid #2b2b2b26;
+}
 .hero{
+  position: relative;
   height: 70vh;
   background-image: url("../img/hero-diagram.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
-.content {
+.hero img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper {
     max-width: 900px;
     margin: auto;
     background: #eee;
@@ -75,17 +85,37 @@ span.logo-text {
     letter-spacing: 0px;
 }
 .description{
-  width: 100%;
-}
-.features{
+  padding: 15px;
   width: 48%;
   margin-right: 4%;
   float: left;
+}
+
+.features{
+  width: 100%;
 }
 .gallery{
   width: 48%;
   float: right;
 }
+
 .nav a {
     color: #e27504;
+}
+.nav a:hover {
+    color: #fca502;
+    text-shadow: 0px 1px 1px #000000cc;
+}
+div.gallery-item{
+  margin: 2%;
+  float: left;
+  max-width: 28%;
+}
+.gallery-item img{
+  width: 100%;
+}
+.two-col::after{
+  content: "";
+  clear: both;
+  display: table;
 }

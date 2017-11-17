@@ -44,7 +44,7 @@ This project was completed using only HTML and CSS. The specific CSS elements us
 |display: inline|Overrides an element's default display style, causing it to display as though it were an inline element. By default, inl | |
 |centered content| | |
 |pseudo-element| | |
-|pseudo-class| | |
+|pseudo-class| |The navigation links are styled using the 'hover' and 'active' pseudo-classes. When moused-over or clicked, the links will shift to a brighter color with a sharper drop-shadow. |
 |clear-fix| | |
 |Positional selector| | |
 |Selector combinator|combined selectors| whynot?|
