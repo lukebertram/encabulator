@@ -11,7 +11,7 @@ a{
 }
 
 body{
-  background: #444;
+  background: #333;
   margin: 0;
   color: #e2e2d3;
   font-family: helvetica;
@@ -58,16 +58,29 @@ header {
 .hero{
   position: relative;
   height: 70vh;
-  background-image: url("../img/hero-diagram.jpg");
+  background: radial-gradient(#54799c, #000000d4), url(../img/hero-diagram.jpg) no-repeat center;
+  /* background-image: url("../img/hero-diagram.jpg"); */
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 .hero img {
   position: relative;
-  left: 50%;
-  top: 50%;
+  left: 42%;
+  top: 48%;
   transform: translate(-50%, -50%);
+  width: 690px;
+}
+.hero h1 {
+  margin: 0;
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+  color: skyblue;
+  font-style: italic;
+  font-size: 65px;
+  letter-spacing: -3px;
+  text-shadow: 2px 2px 2px #00000088;
 }
 .wrapper {
     max-width: 900px;
