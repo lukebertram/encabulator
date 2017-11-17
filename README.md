@@ -1,6 +1,6 @@
 # Retro-Encabulator
 
-#### A webpage promoting the Retro-Encabulator from Rockwell Automotive, November 17, 2017
+#### A webpage promoting the Retro-Encabulator, November 17, 2017
 
 #### By **Luke Bertram**
 
@@ -38,10 +38,10 @@ This project was completed using only HTML and CSS. The specific CSS elements us
 
 |Term     | Description | Implementation|
 |:--------|-------------|--------------:|
-|Border-box| it's a thing | I did it with magic |
-|Float| | |
-|display: block| | |
-|display: inline| | |
+|border-box| A value for the 'box-sizing' property that prevents an element's padding and margin values from adding to its total width.| This property value was applied to every element on the page by default by using the * (all) selector at the top of the stylesheet. |
+|float| Removes an element from the normal flow of the document, causing it to 'float' either to the left or right depending on the value set.| Both the logo and the navigation links in the page's header are floated - the former to the left and the latter to the right.|
+|display: block|Overrides an element's default display style, causing it to display as though it were a block element. By default, block elements take up the full width available and break to their own new line. | |
+|display: inline|Overrides an element's default display style, causing it to display as though it were an inline element. By default, inl | |
 |centered content| | |
 |pseudo-element| | |
 |pseudo-class| | |
@@ -53,6 +53,6 @@ This project was completed using only HTML and CSS. The specific CSS elements us
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT License
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **Luke Bertram**
