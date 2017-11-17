@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+div{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #444;
+  margin: 0;
+  color: #e2e2d3;
+  font-family: helvetica;
+}
+header {
+    height: 100px;
+    background: #000;
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    height: 100%;
+    background: gray;
+    display: inline-block;
+    width: 200px;
+    float:  left;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav {
+    position: relative;
+    top: 50%;
+    float: right;
+    transform: translate(0,-50%);
+}
