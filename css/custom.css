@@ -33,20 +33,24 @@ header {
 .logo-text{
   font-family: 'Kanit', sans-serif;
 }
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline;
-  margin-right: 30px;
-}
 
 .nav {
   position: relative;
   top: 50%;
   float: right;
   transform: translate(0,-50%);
+}
+.nav ul{
+  list-style: none;
+}
+.nav li{
+  border-right: 2px solid #2b2b2b26;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #00000033;
 }
 .hero{
   height: 70vh;
@@ -58,6 +62,8 @@ li {
 .content {
     max-width: 900px;
     margin: auto;
+    background: #eee;
+    color: #444;
 }
 
 span.logo-text {
@@ -67,4 +73,19 @@ span.logo-text {
     padding-left: 15px;
     text-shadow: 2px 2px 1px #000000aa;
     letter-spacing: 0px;
+}
+.description{
+  width: 100%;
+}
+.features{
+  width: 48%;
+  margin-right: 4%;
+  float: left;
+}
+.gallery{
+  width: 48%;
+  float: right;
+}
+.nav a {
+    color: #e27504;
 }
