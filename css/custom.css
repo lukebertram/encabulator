@@ -132,3 +132,13 @@ div.gallery-item{
   clear: both;
   display: table;
 }
+
+table{
+  width: 95%;
+  padding: 10px;
+  margin: auto;
+  background: #888;
+}
+td:nth-child(2){
+  text-align: right;
+}
