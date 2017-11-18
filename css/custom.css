@@ -139,6 +139,15 @@ table{
   margin: auto;
   background: #888;
 }
+th{
+  background: #ddd;
+}
+tr{
+  background: #bbb;
+}
+td:first-child{
+  padding-left: 10px;
+}
 td:nth-child(2){
-  text-align: right;
+  text-align: center;
 }
