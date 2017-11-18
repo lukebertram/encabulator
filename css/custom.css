@@ -71,7 +71,7 @@ header {
   transform: translate(-50%, -50%);
   width: 690px;
 }
-.hero h1 {
+.hero > h1 {
   margin: 0;
   position: absolute;
   bottom: 15px;
